@@ -53,9 +53,9 @@ function render(variables = {}) {
           <h3>${city}, ${country}</h3>
           <ul class=" ${variables.socialMediaPosition} ">
             
-            <li><a href="https://github.com/alejandroespla"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/alejandro-espl%C3%A1/"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/espla_design/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href='https://github.com/${variables.github}'><i class="fab fa-github"></i></a></li>
+            <li><a href='https://www.linkedin.com/in/${variables.linkedin}/'><i class="fab fa-linkedin"></i></a></li>
+            <li><a href='https://instagram.com/${variables.instagram}'><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
